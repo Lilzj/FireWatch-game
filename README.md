@@ -1,2 +1,2 @@
 # FireWatch-game
-An online gaming platform for game lovers
+A simple Bootstrap online gaming template for game lovers
