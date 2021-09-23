@@ -1,0 +1,657 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	background-color: #210002;
+	height: auto;
+}
+
+.container{
+	width: 100%;
+	min-height: 4470px;
+	margin: 0;
+	background-color: #210002;
+	color: #ffaf00;
+}
+
+.container .header{
+	width: 100%;
+	height: 35px;
+	/*background: #eee;*/
+	padding: 0 0 0 10px;
+}
+
+.container .header .logo{
+	float: left;
+	margin-top: 7px;
+}
+
+.container .header .logo a{
+	text-decoration: none;
+	color: #FFAF00;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .header .nav{
+	float: right;
+}
+
+.container .header .nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container .header .nav ul li{
+	list-style-type: none;
+	float: left;
+	/*margin: 0 5px;*/
+	padding: 6px 10px;
+}
+
+.container .header .nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFAF00;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .header .nav ul li.current{
+	background: #A34300;
+	
+}
+
+.container .parallax{
+	width: 100%;
+	height: 1000px;
+	margin: 0;
+	background-color: #FFAF00;
+	position: relative;
+
+}
+
+.container .parallax .jarallax{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	background-position: bottom center;
+	display: block;
+}
+
+.container .parallax #mobile{
+	background-image: url('../images/keyart-mobile.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	background-position: bottom center;
+	display: block;
+}
+
+	#img1 {
+		background-image: url('../images/parallax/parallax0.png');
+	}
+	#img2 {
+		background-image: url('../images/parallax/parallax1.png');
+	}
+	#img3 {
+		background-image: url('../images/parallax/parallax2.png');
+	}
+	#img4 {
+		background-image: url('../images/parallax/parallax3.png');
+	}
+	#img5 {
+		background-image: url('../images/parallax/parallax4.png');
+	}
+	#img6 {
+		background-image: url('../images/parallax/parallax5.png');
+	}
+	#img7 {
+		background-image: url('../images/parallax/parallax6.png');
+	}
+	#img8 {
+		background-image: url('../images/parallax/parallax7.png');
+	}
+	#img9 {
+		background-image: url('../images/parallax/parallax8.png');
+	}
+
+.container .main{
+	width: 66%;
+	height: 3500px;
+	/*background: #eee;*/
+	margin: auto;
+}
+
+.container .main .awards{
+	width: 100%;
+	height: 320px;
+	/*background: red;*/
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.container .main .awards .box.last{
+	/*border: 0.5px solid #eee;*/
+	margin-right: 0;
+}
+
+.container .main .awards .box{
+	height: 90px;
+    width: 260px;
+    background-image: url(../images/laurel_left.png), url(../images/laurel_right.png);
+    background-position: left, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 10px 45px;
+    margin: 15px 50px 15px 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container .main .awards .box .content{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.container .main .awards .box .content span{
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.container .main .awards .box .content span.text{
+	color: rgb(151,55,0);
+	font-weight: 600;
+}
+
+.container .main .available{
+	width: 90%;
+	min-height: 50px;
+	margin-left: 60px;
+	/*background: #eee;*/
+}
+
+.container .main .available h2.sale span{
+	background: url('../images/banner_transparent_left.png') no-repeat left top / contain, 
+				url('../images/banner_transparent_right.png') no-repeat right top / contain;
+	background-color: #ffaf00;
+	color:  #210002;
+	text-align: center;
+	/*background-clip: padding-box;*/
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 10px;
+	padding: 15px 48px 15px 48px;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+
+}
+
+.container .main .game{
+	width: 80%;
+	margin: 30px auto;
+	height: 150px;
+	/*background-color: red;*/
+}
+
+.container .main .game .box{
+	min-width: 5%;
+	height: 70px;
+	display: inline-block;
+	margin-right: -4px;
+	cursor: pointer;
+}
+
+.container .main .game .box.one:hover, .container .main .game .box.two:hover, 
+.container .main .game .box.three:hover, .container .main .game .box.four:hover{
+	background-color: #fff;
+	color: #fff;
+}
+
+.container .main .game .box.one{
+	background-image: url('../images/storelink_steam.png');
+	background-color: #ffaf00;
+	width: 200px;
+	background-size: cover;
+	background-position: center;
+	/*min-width: 30%;*/
+	display: inline-block;
+}
+
+.container .main .game .box.two{
+	background-image: url('../images/storelink_gog.png');
+	background-color: #ffaf00;
+	background-size: cover;
+	background-position: center;
+	width: 70px;
+}
+
+.container .main .game .box.three{
+	background-image: url('../images/storelink_psn.png');
+	background-color: #ffaf00;
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	margin-right: 6px;
+	margin-left: 18px;
+}
+
+.container .main .game .box.four{
+	background-image: url('../images/storelink_xbone.png');
+	/*width: 100px;
+	height: 70px;*/
+	background-color: #ffaf00;
+	background-size: cover;
+	background-position: center;
+	width: 150px;
+	margin-right: 0;
+}
+
+.container .main .game .text{
+	display: inline-block;
+	background: url('../images/banner_transparent_left.png') no-repeat left top / contain, 
+				url('../images/banner_transparent_right.png') no-repeat right top / contain;
+	background-color: #ffaf00;
+	color:  #210002;
+	text-align: center;
+	margin-top: 0;
+	padding: 2px 18px 2px 18px;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-right: 30px;
+	margin-left: 0px;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .game .text.last{
+	margin-right: 0;
+	margin-left: 0;
+	padding: 2px 18px 2px 18px;
+}
+
+.container .main .game .text.play{
+	margin-left: 0;
+}
+
+.container .main .video{
+	width: 100%;
+	height: 600px;
+	/*background: #eee;*/
+	margin-top: 70px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.container .main .video video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.container .main .description{
+	text-align: left;
+	line-height: 1.6em;
+	margin-top: 50px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #ddd;*/
+	height: 600px;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .description h1 {
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 45px;
+	margin-bottom: 30px;
+}
+
+.container .main .text p {
+	margin-bottom: 1.6em;
+	width: 325px;
+	display: inline-block;
+	font-size: 20px;
+	/*line-height: 2;*/
+	font-style: normal;
+	font-weight: 300;
+	line-height: 32px;
+
+}
+.container .main .text p.left {
+	margin-right: 150px;
+}
+
+.container .main .text p.right{
+	margin-right: 0;
+}
+
+.container .main .link{
+	width: 850px;
+	margin: auto;
+	min-height: 100px;
+	/*background-color: #ddd;*/
+	margin-top: 0px;
+}
+
+.container .main .link .box{
+	min-width: 42%;
+	min-height: 100px;
+	/*background-color: red;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 50px;
+	cursor: pointer;
+}
+
+.container .main .link .box.one a{
+	text-decoration: none;
+}
+
+
+.container .main .link .box.one a:hover img, .container .main .link .box.one a:hover h4.text span {
+	background-color: #ffaf00;
+	/*color: #ffaf00;*/
+}
+
+.container .main .link .box.one a img{
+	/*background-image: url('../images/merchlink_transparent.png');*/
+	height: 120px;
+	width: 320px;
+	background-size: cover;
+	/*margin-top: 0;*/
+	/*margin-bottom: 0;*/
+	background-color: #973700;
+}
+
+.container .main .link .box.one a h4.text span{
+	background: url('../images/banner_transparent_left.png') no-repeat left top / contain, 
+				url('../images/banner_transparent_right.png') no-repeat right top / contain;
+	background-color: #973700;
+	color:  #210002;
+	text-align: center;
+	margin-top: -25px;
+	padding: 2px 20px 2px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	display: block;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .link .box.two{
+	margin-right: 0;
+}
+
+.container .main .link .box.two ul{
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*display: inline-block;*/
+	min-width: 325px;
+	/*margin: 0 25px;*/
+}
+
+.container .main .link .box.two ul li{
+	list-style-type: none;
+	margin-bottom: 70px;
+}
+
+.container .main .link .box.two ul li a{
+	text-decoration: none;
+}
+
+.container .main .link .box.two ul li a h4.text span{
+	background: url('../images/banner_transparent_left.png') no-repeat left top / contain, 
+				url('../images/banner_transparent_right.png') no-repeat right top / contain;
+	background-color: #973700;
+	color:  #210002;
+	text-align: center;
+	/*margin-top: -25px;*/
+	padding: 2px 40px 2px 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	display: block;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .link .box.two ul li a:hover h4.text span{
+	background-color: #ffaf00;
+}
+
+.container .main .screenshot{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	/*background-color: #eee;*/
+}
+
+.container .main .screenshot ul.thumbnails{
+	padding: 0;
+}
+
+
+.container .main .screenshot .thumbnails li {
+	display: inline-block;
+	width: 47%;
+	margin-bottom: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.container .main .screenshot .thumbnails li, .screenshot img {
+	opacity: 0.85;
+	/*transition: opacity .2s;*/
+}
+
+.container .main .screenshot .thumbnails li:hover, .screenshot a:hover img {
+	opacity: 1;
+}
+
+.container .main .screenshot .thumbnails li img {
+	width: 100%;
+	height: auto;
+}
+
+.container .main .screenshot .thumbnails li:nth-child(odd) {
+	margin-right: 5%;
+}
+
+.container .main .quote {
+	width: 60%;
+	height: auto;
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+
+}
+	
+.container .main .quote h2, .quote h3 {
+	margin: 30px auto;
+}
+
+.container .main .quote h2 {
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+
+.container .main .quote h3 {
+	font-weight: 700;
+	color: #973700;
+}
+.container .main .quote h3 {
+	font-size: 20px;
+	letter-spacing: 4px;
+}
+
+.container .main .support{
+	width: 100%;
+	height: auto;
+	/*background-color: red;*/
+}
+
+
+.container .main .support ul.supportlink {
+	height: 68px;
+	background-image: url('../images/firewatch_shield_small.png');
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 0;
+}
+
+.container .main .support .supportlink {
+	font-size: 0;
+}
+
+.container .main .support .supportlink li.streaming{
+	margin-right: 0;
+}
+
+
+.container .main .support .supportlink li {
+	display: inline-block;
+	width: 45%;
+	margin-top: 23px;
+	margin-right: 10%;
+}
+
+.container .main .support .supportlink li a:hover h4 span{
+	background-color: #ffaf00;
+}
+
+.container .main .support .supportlink li a{
+	text-decoration: none;
+}
+
+.container .main .support .supportlink h4.text span {
+    background: url('../images/banner_transparent_left.png') no-repeat left top / contain, 
+				url('../images/banner_transparent_right.png') no-repeat right top / contain;
+	background-color: #973700;
+	color:  #210002;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	display: block;
+	padding: 3px;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .copyright {
+	margin: 100px auto;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+}
+
+.container .main .copyright p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #973700;
+}
+
+.container .main .logo {
+	width: 60%;
+	/*background-color: #eee;*/
+	margin: auto;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.container .main .logo .img{
+	margin: 0;
+}
+
+.container .main .logo .img li {
+	display: inline-block;
+}
+
+.container .main .logo .img li a {
+	display: block;
+}
+
+.container .main .logo .img li h1 {
+	height: 69px;
+	width: 125px;
+	background-color: #973700;
+	text-indent: -9999px;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 0 2px #210002;
+	background-clip: padding-box;
+	transition: background-color 0.15s;
+	margin: 30px;
+	margin-top: 0;
+}
+
+.container .main .logo .img li>a:hover h1 {
+	background-color: #ffaf00;
+}
+
+.container .main .logo .img li.campo h1 {
+	background-image: url('../images/logo_camposanto_transparent.png');
+}
+
+.container .main .logo .img li.panic h1 {
+	background-image: url('../images/logo_panic_transparent.png');
+	width: 62px;
+}
+
+
+
+@media only screen and (max-width: 400px){
+	.container .parallax .jarallax{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	background-position: bottom center;
+	display: none;
+}
+
+.container .parallax #mobile{
+	background-image: url('../images/keyart-mobile.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	background-position: bottom center;
+	display: block;
+}
+
+}
+
+
